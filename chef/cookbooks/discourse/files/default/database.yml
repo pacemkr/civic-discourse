@@ -28,3 +28,13 @@ production:
   timeout: 5000
   host_names:
     - production.localhost
+
+# vbulletin import
+vbulletin:
+  adapter: mysql2
+  encoding: utf8
+  database: vbulletin_data
+  host: localhost
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock

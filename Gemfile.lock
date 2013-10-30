@@ -139,6 +139,8 @@ GEM
       activesupport (= 3.2.12)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-mysql2-adapter (0.0.3)
+      mysql2
     activerecord-postgres-hstore (0.7.6)
       activerecord (>= 3.1)
       pg-hstore (>= 1.1.5)
@@ -254,6 +256,7 @@ GEM
     multi_json (1.7.8)
     multipart-post (1.2.0)
     mustache (0.99.4)
+    mysql2 (0.3.13)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.6.8)
@@ -468,6 +471,7 @@ PLATFORMS
 DEPENDENCIES
   active_attr
   active_model_serializers
+  activerecord-mysql2-adapter
   activerecord-postgres-hstore
   airbrake (= 3.1.2)
   annotate!

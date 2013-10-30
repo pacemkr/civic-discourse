@@ -4,3 +4,8 @@ This branch is here to support the development of [discourse-import-vbulletin](h
 # Setup
 
 If you already ran `vagrant up` and have a working VM, you can install the missing pieces by running `vagrant reload --provision`.
+
+# Loading data
+
+    rake vbulletin:db:create
+    ...
