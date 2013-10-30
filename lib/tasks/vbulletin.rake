@@ -5,5 +5,10 @@ namespace :vbulletin do
                         config = ActiveRecord::Base.configurations['vbulletin']
                         create_database(config)
                 end
+
+                task :drop => 'db:load_config' do
+                        config = ActiveRecord::Base.configurations['vbulletin']
+                        drop_database_and_rescue(config)
+                end
         end
 end

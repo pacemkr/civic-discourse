@@ -52,9 +52,9 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "recipe[mysql::ruby]"
     chef.json = {
             "mysql" => {
-                    "server_root_password" => "password1",
-                    "server_repl_password" => "password2",
-                    "server_debian_password" => "password3"
+                    "server_root_password" => "",
+                    "server_repl_password" => "",
+                    "server_debian_password" => ""
             },
     }
   end

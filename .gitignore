@@ -91,3 +91,6 @@ config/version.rb
 .ruby-gemset
 .rbenv
 bundler_stubs/*
+
+# vbulletin import
+vbulletin_data.sql
