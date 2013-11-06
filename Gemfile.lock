@@ -90,6 +90,11 @@ GIT
       activesupport (>= 3.0.0)
 
 PATH
+  remote: /discourse-import-vbulletin
+  specs:
+    discourse-import-vbulletin (0.0.1)
+
+PATH
   remote: vendor/gems/discourse_emoji
   specs:
     discourse_emoji (0.0.1)
@@ -480,6 +485,7 @@ DEPENDENCIES
   binding_of_caller
   certified
   diffy (>= 3.0)
+  discourse-import-vbulletin!
   discourse_emoji!
   discourse_plugin!
   email_reply_parser!

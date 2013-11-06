@@ -204,3 +204,4 @@ end
 
 # vbulletin import
 gem 'activerecord-mysql2-adapter'
+gem 'discourse-import-vbulletin', :path => '/discourse-import-vbulletin'
